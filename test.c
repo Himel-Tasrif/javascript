@@ -1,5 +1,8 @@
 #include<stdio.h>
-
 int main (){
-    printf("hello world");
+int a;
+printf("enter a number");
+scanf("%d",&a);
+printf("%d",a+6);
+    return 0;
 }
